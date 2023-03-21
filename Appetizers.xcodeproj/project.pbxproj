@@ -19,6 +19,7 @@
 		F851852A29CA3B8000D0CADE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851852929CA3B8000D0CADE /* NetworkManager.swift */; };
 		F851852C29CA3CA500D0CADE /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851852B29CA3CA500D0CADE /* APError.swift */; };
 		F851852E29CA57D400D0CADE /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851852D29CA57D300D0CADE /* AppetizerListViewModel.swift */; };
+		F851853029CA5D8F00D0CADE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851852F29CA5D8F00D0CADE /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		F851852929CA3B8000D0CADE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F851852B29CA3CA500D0CADE /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		F851852D29CA57D300D0CADE /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		F851852F29CA5D8F00D0CADE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				F851852929CA3B8000D0CADE /* NetworkManager.swift */,
 				F851852B29CA3CA500D0CADE /* APError.swift */,
 				F851852D29CA57D300D0CADE /* AppetizerListViewModel.swift */,
+				F851852F29CA5D8F00D0CADE /* Alert.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				F851851429C9FD3400D0CADE /* AppetizerTabView.swift in Sources */,
 				F851852A29CA3B8000D0CADE /* NetworkManager.swift in Sources */,
 				F851851229C9FD3400D0CADE /* AppetizersApp.swift in Sources */,
+				F851853029CA5D8F00D0CADE /* Alert.swift in Sources */,
 				F851852029C9FDEA00D0CADE /* AppetizerListView.swift in Sources */,
 				F851852429C9FE0600D0CADE /* OrderView.swift in Sources */,
 			);
