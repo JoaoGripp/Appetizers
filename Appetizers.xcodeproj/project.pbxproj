@@ -28,6 +28,7 @@
 		F851854A29CB260100D0CADE /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851854929CB260100D0CADE /* XDismissButton.swift */; };
 		F851854C29CB39BC00D0CADE /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851854B29CB39BC00D0CADE /* AccountViewModel.swift */; };
 		F851854E29CB3B5600D0CADE /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851854D29CB3B5600D0CADE /* String+Ext.swift */; };
+		F851855029CBE52700D0CADE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851854F29CBE52700D0CADE /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		F851854929CB260100D0CADE /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		F851854B29CB39BC00D0CADE /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		F851854D29CB3B5600D0CADE /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		F851854F29CBE52700D0CADE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				F851852529CA2EA700D0CADE /* Appetizer.swift */,
+				F851854F29CBE52700D0CADE /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				F851852E29CA57D400D0CADE /* AppetizerListViewModel.swift in Sources */,
 				F851853429CA6BE500D0CADE /* Color+Ext.swift in Sources */,
 				F851852229C9FDFB00D0CADE /* AccountView.swift in Sources */,
+				F851855029CBE52700D0CADE /* User.swift in Sources */,
 				F851854829CB254700D0CADE /* APButton.swift in Sources */,
 				F851853229CA6A6300D0CADE /* LoadingView.swift in Sources */,
 				F851851429C9FD3400D0CADE /* AppetizerTabView.swift in Sources */,
