@@ -30,6 +30,7 @@
 		F851854E29CB3B5600D0CADE /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851854D29CB3B5600D0CADE /* String+Ext.swift */; };
 		F851855029CBE52700D0CADE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851854F29CBE52700D0CADE /* User.swift */; };
 		F851857529CC7BF800D0CADE /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851857429CC7BF800D0CADE /* EmptyState.swift */; };
+		F851857729CC809B00D0CADE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851857629CC809B00D0CADE /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		F851854D29CB3B5600D0CADE /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		F851854F29CBE52700D0CADE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F851857429CC7BF800D0CADE /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		F851857629CC809B00D0CADE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			children = (
 				F851852529CA2EA700D0CADE /* Appetizer.swift */,
 				F851854F29CBE52700D0CADE /* User.swift */,
+				F851857629CC809B00D0CADE /* Order.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				F851852C29CA3CA500D0CADE /* APError.swift in Sources */,
 				F851854A29CB260100D0CADE /* XDismissButton.swift in Sources */,
 				F851852829CA341300D0CADE /* AppetizerListCell.swift in Sources */,
+				F851857729CC809B00D0CADE /* Order.swift in Sources */,
 				F851854C29CB39BC00D0CADE /* AccountViewModel.swift in Sources */,
 				F851852E29CA57D400D0CADE /* AppetizerListViewModel.swift in Sources */,
 				F851853429CA6BE500D0CADE /* Color+Ext.swift in Sources */,
