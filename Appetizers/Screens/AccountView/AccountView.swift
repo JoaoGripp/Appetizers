@@ -11,13 +11,30 @@ struct AccountView: View {
     
     @StateObject var viewModel = AccountViewModel()
     
+    @FocusState private var focusedTextField: FormTextField?
+    
+    enum FormTextField {
+        case firstName, lastName, email
+    }
+    
     var body: some View {
         NavigationView {
             Form {
                 Section("Personal Info") {
                     TextField("First Name", text: $viewModel.user.firstName)
+                        .focused($focusedTextField, equals: .firstName)
+                        .onSubmit { focusedTextField = .lastName }
+                        .submitLabel(.next)
+                    
                     TextField("Last Name", text: $viewModel.user.lastName)
+                        .focused($focusedTextField, equals: .lastName)
+                        .onSubmit { focusedTextField = .email }
+                        .submitLabel(.next)
+                    
                     TextField("email", text: $viewModel.user.email)
+                        .focused($focusedTextField, equals: .email)
+                        .submitLabel(.continue)
+                        .onSubmit { focusedTextField = nil }
                         .keyboardType(.emailAddress)
                         .autocapitalization(.none)
                         .autocorrectionDisabled(true)
@@ -35,6 +52,11 @@ struct AccountView: View {
                 .toggleStyle(SwitchToggleStyle(tint: .brandPrimary))
             }
             .navigationTitle("🤣 Account")
+            .toolbar {
+                ToolbarItemGroup(placement: .keyboard) {
+                    Button("Dismiss") { focusedTextField = nil }
+                }
+            }
         }
         .onAppear {
             viewModel.retrieveUser()
