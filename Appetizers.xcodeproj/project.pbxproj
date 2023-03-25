@@ -31,6 +31,7 @@
 		F851855029CBE52700D0CADE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851854F29CBE52700D0CADE /* User.swift */; };
 		F851857529CC7BF800D0CADE /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851857429CC7BF800D0CADE /* EmptyState.swift */; };
 		F851857729CC809B00D0CADE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851857629CC809B00D0CADE /* Order.swift */; };
+		F851858129CF72A700D0CADE /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851858029CF72A700D0CADE /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		F851854F29CBE52700D0CADE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F851857429CC7BF800D0CADE /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		F851857629CC809B00D0CADE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		F851858029CF72A700D0CADE /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				F851854329CB19F400D0CADE /* Image */,
 				F851854229CB19EE00D0CADE /* Cells */,
 				F851854129CB19E100D0CADE /* UIKit Compoments */,
+				F851858029CF72A700D0CADE /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				F851854529CB1B6200D0CADE /* AppetizerDetailView.swift in Sources */,
 				F851851229C9FD3400D0CADE /* AppetizersApp.swift in Sources */,
 				F851853029CA5D8F00D0CADE /* Alert.swift in Sources */,
+				F851858129CF72A700D0CADE /* CustomModifiers.swift in Sources */,
 				F851852029C9FDEA00D0CADE /* AppetizerListView.swift in Sources */,
 				F851852429C9FE0600D0CADE /* OrderView.swift in Sources */,
 			);
