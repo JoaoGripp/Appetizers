@@ -32,6 +32,7 @@
 		F851857529CC7BF800D0CADE /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851857429CC7BF800D0CADE /* EmptyState.swift */; };
 		F851857729CC809B00D0CADE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851857629CC809B00D0CADE /* Order.swift */; };
 		F851858129CF72A700D0CADE /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851858029CF72A700D0CADE /* CustomModifiers.swift */; };
+		F851858329D0A6E700D0CADE /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851858229D0A6E700D0CADE /* Date+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		F851857429CC7BF800D0CADE /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		F851857629CC809B00D0CADE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		F851858029CF72A700D0CADE /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		F851858229D0A6E700D0CADE /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			children = (
 				F851853329CA6BE500D0CADE /* Color+Ext.swift */,
 				F851854D29CB3B5600D0CADE /* String+Ext.swift */,
+				F851858229D0A6E700D0CADE /* Date+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				F851852629CA2EA700D0CADE /* Appetizer.swift in Sources */,
 				F851852C29CA3CA500D0CADE /* APError.swift in Sources */,
 				F851854A29CB260100D0CADE /* XDismissButton.swift in Sources */,
+				F851858329D0A6E700D0CADE /* Date+Ext.swift in Sources */,
 				F851852829CA341300D0CADE /* AppetizerListCell.swift in Sources */,
 				F851857729CC809B00D0CADE /* Order.swift in Sources */,
 				F851854C29CB39BC00D0CADE /* AccountViewModel.swift in Sources */,
